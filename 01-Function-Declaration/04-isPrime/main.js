@@ -73,3 +73,36 @@ printPrime(71);
 // - simple ideas => one idea
 // - hiding complexity
 // - simple interaction
+
+function addTwp (n) {
+    let result = n + 2
+    // return result;
+    console.log('End calc');
+}
+
+let result = addTwo(5) ;
+console.log(result) ;
+
+
+/*
+function isPrime(num) {
+    for (let d = 2; d < num; d++) {
+        // console.log(d);
+        if (num % d == 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+function printPrime(limit) {
+    for (let n = 2; n <= limit; n++) {
+        if (isPrime(n)) {
+            console.log(n);
+        }
+    }
+}
+
+printPrime(50);
+*/
